@@ -1,8 +1,11 @@
-all: header.o
-	gcc header.o main.c -o CadastroFuncionario
+all: function.o
+	gcc function.o main.c -o CadastroFuncionario
 
-paralasei.o:
+function.o: function.h
 	gcc -c function.c
+
+clean:
+	rm -rf *.o
 
 run: CadastroFuncionario
 	./CadastroFuncionario

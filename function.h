@@ -1,5 +1,5 @@
-#ifdef HEADER_HEADER_
-#define HEADER_HEADER_
+#ifndef FUNCTION_H_INCLUDED
+#define FUNCTION_H_INCLUDED
 
 void inicializar_tela();
 void janela(int linInicial, int colInicial, int linFinal, int colFinal, char* titulo, char tipoMoldura);

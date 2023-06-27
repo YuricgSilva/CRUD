@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+#include "function.h"
 
 void inicializar_tela() {
     // Implementação básica para sistemas Unix-like (Linux, macOS)
